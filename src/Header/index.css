@@ -1,0 +1,24 @@
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(231, 140, 22);
+    color: white;
+    user-select: none;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+header p {
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    top: auto;
+    margin-left: 10px;
+}

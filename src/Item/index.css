@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(190, 130, 70);
+    margin-top: 1px;
+    padding: 5px;
+    color: white;
+}
+
+.item .delete {
+    position: absolute;
+    right: 20px;
+    top: auto;
+    width: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.item .check {
+    position: absolute;
+    right: 55px;
+    top: auto;
+    width: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.item h2 {
+    font-size: 24px;
+}
+
+.item p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.item:hover {
+    filter: brightness(90%);
+}
